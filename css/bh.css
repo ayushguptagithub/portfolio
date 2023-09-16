@@ -1,0 +1,124 @@
+*{margin:0; padding:0; box-sizing:border-box; font-family:sans-serif;}
+
+.container{width:100%; background:; overflow:hidden;}
+.main{width:90%; background:; overflow:hidden; margin:auto;}
+.text{padding:10px; text-align:justify;}
+.padding{padding:20px;}
+.logo{width:40%; float:left; padding:20px 0px; text-decoration:none;}
+.images{width:100%; padding:10px;}
+.center{text-align:center;}
+
+.contact{width:20%; float:right; padding:50px 20px 0px 0px;}
+.banner{width:100%; position:relative; display:block;}
+.png{position:absolute; top:0px; display:block;}
+.burger{width:100%;}
+.burgertxt{width:90%; padding:150px 0px 0px 50px;}
+
+.bbi{position:relative;}
+.bbitext{position:absolute; top:670px; left:130px;}
+.bg1{position:relative;}
+.bg1text{position:absolute; top:670px; right:480px;}
+.bg2{position:relative;}
+.bg2text{position:absolute; top:870px; right:460px;}
+
+.orderbtn{width:40%; padding:10px; background:#bf2222;}
+.orderbtn a{color:#ffffff; font-family:Alfa Slab One; font-size:12px;}
+.orderbtn a:hover{color:#ffc045;}
+
+.bg{position:relatives; width:1200px; height:350px; background:#ffffff; box-shadow:50px -8px 20px 0px; border:1px solid #f0f5f9;}
+.cardtext{text-align:justify}
+.cardh{text-align:left; padding:0px 0px 0px 20px;}
+.cardsec{position:absolute; bottom:1220px; left:100px;}
+.sec3img{position:absolute; width:35%; bottom:1150px; right:100px;}
+
+.fbut{width:100%; padding:12px 30px 12px 30px; background:#bf2222; border:0; border-radius:5px; letter-spacing:1px;}
+.fbut,a{color:white; font-family:Alfa Slab One;}
+.input{width:100%; border-radius:5px; padding:10px; border:2px solid #dad9d7; font-family:'Bebas Neue';}
+
+.bgimg1{width:20%; position:absolute; bottom:120px; left:0px;}
+.bgimg2{width:14%; position:absolute; bottom:-50px; left:150px;}
+.bgimg3{width:20%; position:absolute; bottom:-220px; right:0px;}
+
+.flinks a{color:white; font-size:15px;}
+.fp p{width:80%; text-align:left; padding:20px 0px 20px 0px;}
+
+.links{width:100%; color:white; text-align:left; padding:30px 20px 20px 50px; display:inline-block;}
+.footerbg{position:relative; top:150px; right:14px; margin-top:-60px; width:100%; z-index:-1;}
+.footerinfo{position:absolute; bottom:200px; left:100; padding:20px;}
+.footerinfo2{position:absolute; bottom:200px; left:100; padding:20px;}
+.footerlogo{width:60%;}
+.credit{position:absolute; bottom:10px; font-family:bebas; width:100%; align:left; padding:20px; float:left; text-decoration:none;}
+
+.section1{padding:30px 10px 30px 10px;}
+.section2{padding:20px;}
+.section3{padding:0px;}
+.section4{padding:50px; position:relative;}
+
+a{color:#3d2514; text-decoration:none;}
+a:hover{color:#bf2222;}
+p{padding:20px; font-family:Montserrat; font-size:14px;}
+h2{color:#3d2514; letter-spacing:5px; font-size:30px; text-decoration:none; font-family:Alfa Slab One; padding:10px;}
+h4{font-family:bebas; color:#3d2514; font-size:20px; letter-spacing:2px; font-weight:normal;}
+h5{font-family:Alfa Slab One; color:#3d2514; font-size:20px; letter-spacing:2px;}
+h6{font-family:bebas; color:#ffffff; font-size:32px; letter-spacing:1px; font-weight:normal;}
+img{width:100%; display:block;}
+
+nav ul{list-style-type:none; font-size:12px; letter-spacing:2px; line-height:5vh; float:right; padding-left:110px;}
+ul a{list-style-type:none; font-size:15px; font-family:bebas regular;}
+nav ul li{display:inline-block; padding:15px 18px;}
+
+button{width:20%; padding:8px 5px 8px 5px; background:#ffc045; border:0;}
+button a{color:#3d2514; font-family:bebas; font-size:20px;}
+form{width:70%; padding:30px;}
+
+.row{clear:both; display:block; content:"";}
+[class*="col-"]{float:left;}
+
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%; padding:20px;}
+.col-5{width:41.66%;}
+.col-6{width:50%; padding:10px;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%; padding:10px;}
+
+
+#check:checked ~ ul{left:0;}
+#check{display:none;}
+#btn{display:none;}
+
+@media(max-width:768px)
+{[class*="col-"]{width:100%;}
+#btn{display:block; float:right; padding:15px; font-size:30px; color:black;}
+
+@media(min-width:769px) and (max-width:992px)
+{[class*="col-"]{width:100%;}}
+
+@media(min-width:1200px) and (max-width:1400px)
+{[class*="col-"]{width:100%;}}
+
+.logo{width:200px; padding:10px;}
+.contact{width:0%; float:right; padding:50px 20px 0px 0px;}
+.png{position:absolute; top:0px; display:block; padding:20px;}
+.burger{width:100%;}
+.burgertxt{width:100%; padding:20px 0px 0px 40px;}
+.bbitext{position:absolute; top:660px; left:80px;}
+.bg1text{position:absolute; top:936px; left:70px; font-size:6px; z-index:-1;}
+.bg2text{position:absolute; top:1105px; left:70px; font-size:6px; z-index:-1;}
+
+.bg{position:relatives; width:100%; height:350px; background:#ffffff; box-shadow:50px -8px 20px 0px; border:1px solid #f0f5f9;}
+.cardtext{text-align:left; font-size:10px;}
+.cardh{text-align:left; padding:0px 0px 0px 20px;}
+.cardsec{position:absolute; bottom:210px; left:100px;}
+.sec3img{position:absolute; width:50%; bottom:56px; right:125px;}
+
+nav ul{position:absolute; top:66px; left:-120%; text-align:center; transition:.5s; background:#020638;}
+nav ul li{display:block; border-bottom:1px solid white;}
+nav ul li a{color:white;}
+ul{width:100%; background:#020638; color:white;}
+button{width:60%; padding:20px; background:#ffc045; border:0; font-weight:bold;}
